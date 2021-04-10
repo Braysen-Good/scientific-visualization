@@ -66,9 +66,11 @@ class CurrentEnvironment:
             'z': 2,
             'volume': 3,
         }
+        self.attributes = []
         baseOffest = 4 #x, y, z, volume
         for child in variablesNode:
             var = child.attrib
+            self.attributes.append(var['name'])
             self.variables[var['name']] = int(var['ID']) + baseOffest
         
 
