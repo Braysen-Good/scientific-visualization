@@ -1,5 +1,6 @@
-#Place me in the directory with the .svg output files. 
-
+'''
+    A script used to convert the .svg files from a PhysiCell simulation into .png files 
+'''
 from cairosvg import svg2png
 import os
 
@@ -16,4 +17,4 @@ for filename in os.listdir(dir_path):
         count += 1
     else:
         continue
-
+os.system("ffmpeg -f image2 -r 1 -i ./frame%04d.png -vcodec mpeg4 -y ./simVid.mp4")
