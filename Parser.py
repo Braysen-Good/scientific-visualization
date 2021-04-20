@@ -126,6 +126,7 @@ class Frame:
     """
     def __init__(self, filePath: str, fileName: str, frameNumber: int):
         self.file = filePath + fileName
+        self.frameNumber = frameNumber
         
         if not path.isfile(self.file):
             raise Exception(f"file '{self.file}' was not found for frame {str(frameNumber)}")
