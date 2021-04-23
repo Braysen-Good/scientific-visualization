@@ -24,14 +24,15 @@ The goal for this project was to create a Jupyter widget which could interactive
 ## Data
 Place the Physicell data files (.mat,.xml,.svg) into an output folder which resides within the working directory of your interactive notebook.
 Example File Structure
-.
-|
-PhysiCell
-  -.
-    |PhysiCell
-    |System Files
+
+    .
     |
-    |output            <---
-    |Environment.ipnyb <---
+    PhysiCell
+       -.
+        |PhysiCell
+        |System Files
+        |
+        |output            <---
+        |Environment.ipnyb <---
     
 # Usage
