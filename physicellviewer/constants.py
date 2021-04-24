@@ -49,3 +49,15 @@ necrotic_swelling = 101
 necrotic_lysed = 102
 necrotic = 103
 debris = 104
+
+
+# -------------------------------------- package constants ------------------------------------
+
+# actions
+MOVE_ACTION = 'move'
+ZOOM_ACTION = 'zoom'
+SELECT_ACTION = 'select'
+ROTATE_ACTION = 'rotate'
+
+# views
+VISIBLE_CELL = "cell"

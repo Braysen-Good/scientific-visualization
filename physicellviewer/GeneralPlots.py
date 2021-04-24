@@ -1,8 +1,9 @@
-from Parser import Parser
+from .Parser import Parser 
+from . import constants
 
 import numpy as np
 import matplotlib.pyplot as plt
-import constants
+
 class GeneralPlot:
 
     def __init__(self, fm: Parser):
