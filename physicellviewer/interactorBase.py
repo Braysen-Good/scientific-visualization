@@ -75,7 +75,7 @@ class Interactor:
         self._attributes = widgets.RadioButtons(
             options=self._availableAttributes,
             value=self._selectedAttribute,
-            description='Generate Attribute Graph:\n',
+            description='Attribute Graph:\n',
             disabled=False,
         )
         self._attributes.observe(self.onAttriChange, names='value')
@@ -411,7 +411,7 @@ class Interactor:
         Displays the widgets to the screen
         
         """
-        display(self._canvas, self._buttons, self._frameSelector, self._attributes, self._environmentButtons, output)
+        display(self._canvas, self._buttons, self._frameSelector, self._environmentButtons, self._attributes, output)
         if self._cellFigure is None:
             global figureNumber
             fig, ax = plt.subplots()
