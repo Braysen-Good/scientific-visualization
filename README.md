@@ -23,7 +23,9 @@ The goal for this project was to create a Jupyter widget which could interactive
   * Node.js (version 12 or greater) 
 
 ## Data
-Place the Physicell data files (.mat,.xml,.svg) into an output folder which resides within the working directory of your interactive notebook.
+Place the Physicell data files (.mat,.xml,.svg) into an output folder which resides within the working directory of your interactive notebook.<br>
+within the `Environment.ipynb` file, adjust the path of the output folder. 
+`env = viewSimulation('./<Path To Output>', width=800, height=800)`
 Example File Structure
 
     .
