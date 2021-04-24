@@ -58,7 +58,7 @@ Once the desired cell is selceted, simply choose the attribute you would like to
 ![Tools](/Images/attributes.PNG "")
 
 ## Visibility
-Use this menu to toggle which actors are visible within the rener window.<br>
+Use this menu to toggle which actors are visible within the render window.<br>
 ![Tools](/Images/visible.PNG "")
 
 # Creating an Animation
