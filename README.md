@@ -36,6 +36,19 @@ Example File Structure
         |Environment.ipnyb <---
     
 # Usage
-Choose the desired tool from the tool selction menu.
-As well as the desired frame from within the data.
+Choose the desired tool from the tool selction menu.<br>
+As well as the desired frame from within the data.<br>
 ![Tools](/Images/tools.PNG "")
+
+## Move Tool
+With the move tool selected, click and drag to move the representation around the visualization space. 
+
+## Zoom Tool 
+Clicking and dragging with the zoom tool will zoom in and out.
+
+## Rotate Tool 
+Clicking and dragging with the rotate tool will rotate the representation 
+
+## Select Tool 
+Clicking on a specific cell will select it. The selected cell will be highlighted with white.<br>
+The selected cells information will be displayed at the bottom left corner of the visualization. 
