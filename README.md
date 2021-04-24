@@ -17,12 +17,15 @@ The goal for this project was to create a Jupyter widget which could interactive
   * numpy
   * asyncio
   * matplotlib 
+  * ipycanvas
 ## Other  Dependecies:
   * Physicell (For Data) 
-  * Node.js
+  * Node.js (version 12 or greater) 
 
 ## Data
-Place the Physicell data files (.mat,.xml,.svg) into an output folder which resides within the working directory of your interactive notebook.
+Place the Physicell data files (.mat,.xml,.svg) into an output folder which resides within the working directory of your interactive notebook.<br>
+within the `Environment.ipynb` file, adjust the path of the output folder. 
+`env = viewSimulation('./<Path To Output>', width=800, height=800)`
 Example File Structure
 
     .
@@ -35,20 +38,32 @@ Example File Structure
         |output            <---
         |Environment.ipnyb <---
     
-# Usage
+# Using the Available Tools
 Choose the desired tool from the tool selction menu.<br>
 As well as the desired frame from within the data.<br>
 ![Tools](/Images/tools.PNG "")
 
 ## Move Tool
-With the move tool selected, click and drag to move the representation around the visualization space. 
+Clicking and dragging with the move tool will move the representation around the visualization space. 
 
 ## Zoom Tool 
 Clicking and dragging with the zoom tool will zoom in and out.
 
 ## Rotate Tool 
-Clicking and dragging with the rotate tool will rotate the representation 
+Clicking and dragging with the rotate tool will rotate the representation.
 
 ## Select Tool 
 Clicking on a specific cell will select it. The selected cell will be highlighted with white.<br>
 The selected cells information will be displayed at the bottom left corner of the visualization. 
+
+## Generating Attribute Time graphs 
+Once the desired cell is selected, simply choose the attribute you would like to analyze from the available attibutes.<br>
+![Tools](/Images/attributes.PNG "")
+
+## Visibility
+Use this menu to toggle which actors are visible within the render window.<br>
+![Tools](/Images/visible.PNG "")
+
+# Creating an Animation
+Place and run the script createAnimation.py within the output folder (location of .svg data files).<br>
+There will be a .mp4 file named `simVid.mp4` within the working directory.
