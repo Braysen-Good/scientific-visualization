@@ -5,7 +5,7 @@ The goal for this project was to create a Jupyter widget which could interactive
   * David Oliphant
   * Jared Scott
   
-# Physicell Simulation Visualization
+# PhysiCell Simulation Visualization
 ![Example Vizualization](/Images/viz.png "")
 
 # Setting Up The Enviornment
@@ -20,11 +20,11 @@ The goal for this project was to create a Jupyter widget which could interactive
   * ipycanvas
 ## Other  Dependecies:
   * Physicell (For Data) 
-  * Node.js (version 12 or greater) 
+  * Node.js (Version 12 or Greater) 
 
 ## Data
-Place the Physicell data files (.mat,.xml,.svg) into an output folder which resides within the working directory of your interactive notebook.<br>
-within the `Environment.ipynb` file, adjust the path of the output folder. 
+Place the PhysiCell data files (.mat,.xml,.svg) into an output folder which resides within the working directory of your interactive notebook.<br>
+Within the `Environment.ipynb` file, adjust the path of the output folder. 
 `env = viewSimulation('./<Path To Output>', width=800, height=800)`
 Example File Structure
 
@@ -54,18 +54,19 @@ Clicking and dragging with the rotate tool will rotate the representation.
 
 ## Select Tool 
 Clicking on a specific cell will select it. The selected cell will be highlighted with white.<br>
-The selected cells information will be displayed at the bottom left corner of the visualization. 
+The selected cell's information will be displayed at the bottom left corner of the visualization. 
 
-## Generating Attribute Time graphs 
+## Generating Attribute Time Graphs 
 Once the desired cell is selected, simply choose the attribute you would like to analyze from the available attibutes.<br>
 ![Tools](/Images/attributes.PNG "")
 
 ## Visibility
 Use this menu to toggle which actors are visible within the render window.<br>
+You may hold shift to select more than one.<br>
 ![Tools](/Images/visible.PNG "")
 
 # Creating an Animation
-Place and run the script createAnimation.py within the output folder (location of .svg data files).<br>
+Place and run the script `createAnimation.py` within the output folder (location of .svg data files).<br>
 There will be a .mp4 file named `simVid.mp4` within the working directory.
 
 # Examples - Play around with the tool
