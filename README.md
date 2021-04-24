@@ -6,7 +6,7 @@ The goal for this project was to create a Jupyter widget which could interactive
   * Jared Scott
   
 # Physicell Simulation Visualization
-![FILL IN](/path/to/image.png "")
+![Example Vizualization](/Images/viz.png "")
 
 # Setting Up The Enviornment
 
@@ -36,3 +36,6 @@ Example File Structure
         |Environment.ipnyb <---
     
 # Usage
+Choose the desired tool from the tool selction menu.
+As well as the desired frame from within the data.
+![Tools](/Images/tools.PNG "")
