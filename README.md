@@ -19,7 +19,7 @@ The goal for this project was to create a Jupyter widget which could interactive
   * matplotlib 
 ## Other  Dependecies:
   * Physicell (For Data) 
-  * Node.js (higher than 12) 
+  * Node.js (Higher Than 12) 
 
 ## Data
 Place the Physicell data files (.mat,.xml,.svg) into an output folder which resides within the working directory of your interactive notebook.
@@ -53,5 +53,12 @@ Clicking and dragging with the rotate tool will rotate the representation
 Clicking on a specific cell will select it. The selected cell will be highlighted with white.<br>
 The selected cells information will be displayed at the bottom left corner of the visualization. 
 
+## Generating Attribute Time graphs 
+Once the desired cell is selceted, simply choose the attribute you would like to analyze from the available attibutes.<br>
+![Tools](/Images/attributes.PNG "")
+
+## Visibility
+Use this menu to toggle which actors are visible within the rener window.
+![Tools](/Images/visible.PNG "")
 # Creating an Animation
 Place and run the script createAnimation.py within the output folder (location of .svg data files).
