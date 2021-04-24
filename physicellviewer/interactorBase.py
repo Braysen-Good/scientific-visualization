@@ -171,6 +171,8 @@ class Interactor:
         variables = self.getCellVariables()
         for frameNumber in range(*self._parser.getFrameRange()):
             cell = self.getSelectedCell(frameNumber)
+            if cell.shape[0] == 0:
+                continue
             data.append(cell[variables[self._selectedAttribute]])
             timestamps.append(time)
             time += 1
@@ -381,7 +383,7 @@ class Interactor:
         canvas = self._canvas
         
         selectedCell = self.getSelectedCell()
-        if selectedCell is not None:
+        if selectedCell is not None and selectedCell.shape[0] != 0:
             cellVaraibles = self.getCellVariables()
             
             canvas.fill_style = '#A0A0A0'
