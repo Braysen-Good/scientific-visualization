@@ -19,7 +19,7 @@ The goal for this project was to create a Jupyter widget which could interactive
   * matplotlib 
 ## Other  Dependecies:
   * Physicell (For Data) 
-  * Node.js
+  * Node.js (higher than 12) 
 
 ## Data
 Place the Physicell data files (.mat,.xml,.svg) into an output folder which resides within the working directory of your interactive notebook.
