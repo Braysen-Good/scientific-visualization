@@ -52,3 +52,6 @@ Clicking and dragging with the rotate tool will rotate the representation
 ## Select Tool 
 Clicking on a specific cell will select it. The selected cell will be highlighted with white.<br>
 The selected cells information will be displayed at the bottom left corner of the visualization. 
+
+# Creating an Animation
+Place and run the script createAnimation.py within the output folder (location of .svg data files).
