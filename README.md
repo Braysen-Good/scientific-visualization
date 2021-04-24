@@ -42,7 +42,7 @@ As well as the desired frame from within the data.<br>
 ![Tools](/Images/tools.PNG "")
 
 ## Move Tool
-With the move tool selected, click and drag to move the representation around the visualization space. 
+Clicking and dragging with the move tool will move the representation around the visualization space. 
 
 ## Zoom Tool 
 Clicking and dragging with the zoom tool will zoom in and out.
