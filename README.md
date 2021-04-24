@@ -17,9 +17,10 @@ The goal for this project was to create a Jupyter widget which could interactive
   * numpy
   * asyncio
   * matplotlib 
+  * ipycanvas
 ## Other  Dependecies:
   * Physicell (For Data) 
-  * Node.js (Higher Than 12) 
+  * Node.js (version 12 or greater) 
 
 ## Data
 Place the Physicell data files (.mat,.xml,.svg) into an output folder which resides within the working directory of your interactive notebook.
