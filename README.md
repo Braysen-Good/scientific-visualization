@@ -63,4 +63,4 @@ Use this menu to toggle which actors are visible within the render window.<br>
 
 # Creating an Animation
 Place and run the script createAnimation.py within the output folder (location of .svg data files).<br>
-There will be a .mp4 file names `simVid.mp4` within the working directory.
+There will be a .mp4 file named `simVid.mp4` within the working directory.
