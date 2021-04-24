@@ -48,14 +48,14 @@ With the move tool selected, click and drag to move the representation around th
 Clicking and dragging with the zoom tool will zoom in and out.
 
 ## Rotate Tool 
-Clicking and dragging with the rotate tool will rotate the representation 
+Clicking and dragging with the rotate tool will rotate the representation.
 
 ## Select Tool 
 Clicking on a specific cell will select it. The selected cell will be highlighted with white.<br>
 The selected cells information will be displayed at the bottom left corner of the visualization. 
 
 ## Generating Attribute Time graphs 
-Once the desired cell is selceted, simply choose the attribute you would like to analyze from the available attibutes.<br>
+Once the desired cell is selected, simply choose the attribute you would like to analyze from the available attibutes.<br>
 ![Tools](/Images/attributes.PNG "")
 
 ## Visibility
