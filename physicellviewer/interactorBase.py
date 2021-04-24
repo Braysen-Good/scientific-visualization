@@ -413,7 +413,7 @@ class Interactor:
         Displays the widgets to the screen
         
         """
-        display(self._canvas, self._buttons, self._frameSelector, self._environmentButtons, self._attributes, output)
+        display(self._canvas, self._frameSelector, self._buttons, self._environmentButtons, self._attributes, output)
         if self._cellFigure is None:
             global figureNumber
             fig, ax = plt.subplots()
