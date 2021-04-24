@@ -35,7 +35,7 @@ Example File Structure
         |output            <---
         |Environment.ipnyb <---
     
-# Usage
+# Using the Available Tools
 Choose the desired tool from the tool selction menu.<br>
 As well as the desired frame from within the data.<br>
 ![Tools](/Images/tools.PNG "")
@@ -58,7 +58,8 @@ Once the desired cell is selceted, simply choose the attribute you would like to
 ![Tools](/Images/attributes.PNG "")
 
 ## Visibility
-Use this menu to toggle which actors are visible within the rener window.
+Use this menu to toggle which actors are visible within the rener window.<br>
 ![Tools](/Images/visible.PNG "")
+
 # Creating an Animation
 Place and run the script createAnimation.py within the output folder (location of .svg data files).
